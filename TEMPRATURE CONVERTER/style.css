@@ -1,0 +1,87 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #007bff;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+form.search {
+    margin-bottom: 20px;
+}
+form.search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="text"] {
+    color: #c7e3ff;
+    border: none;
+    background: rgba(0, 0, 0, 0.486);
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type="text"]:focus {
+    color: #007bff;
+    background: rgba(0, 0, 0, 0.2);
+}
+.convert-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.convert-container label {
+    color: #666;
+}
+.convert-container input[type="text"], .convert-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.convert-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.convert-container button:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding:27px 0;
+}
+.social-links a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.social-links a:hover {
+    color: #ffdc50;
+}
